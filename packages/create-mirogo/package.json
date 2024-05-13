@@ -1,0 +1,37 @@
+{
+  "type": "module",
+  "name": "create-mirogo",
+  "version": "0.0.12",
+  "description": "personal development cli tool",
+  "author": "mirrorgo",
+  "files": [
+    "index.mjs",
+    "template-*",
+    "dist"
+  ],
+  "bin": {
+    "create-mirogo": "index.js",
+    "sayhi": "index.js",
+    "sayno": "index.js"
+  },
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirrorgo/create-mirogo.git"
+  },
+  "keywords": [
+    "frontend",
+    "build-tool"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/prompts": "^2.4.9",
+    "prompts": "^2.4.2",
+    "unbuild": "^2.0.0",
+    "zx": "^8.0.2"
+  }
+}
