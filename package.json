@@ -1,6 +1,8 @@
 {
-  "name": "mirogo",
-  "version": "1.0.1",
+  "name": "mirogo-monorepo",
+  "private": true,
+  "type": "module",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
